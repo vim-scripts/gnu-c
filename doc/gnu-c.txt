@@ -1,0 +1,33 @@
+*gnu-c.txt*    						Last change: 2002 Feb 04
+
+
+					*gnu-c* *gnu-c-style* *gnu-c-plugin*
+SYNOPSIS
+
+A filetype plugin to encourage the GNU C style.
+					
+sUMMARY
+
+The GNU Coding Standards encourage the use of a C style not supported by
+default.  This script provides convenience support when editing C sources
+according to the C style guidelines encouraged in the Standards by overruling
+the default C ftplugin, which uses a style closer to the Linux kernel style.
+
+The GNU Coding standards are available at:
+
+	http://www.gnu.org/prep/standards.html
+
+See |C-Indenting| and |format-comments| for an idea of what the script does.
+
+USAGE
+
+Place this file into your ftplugin directory. See |ftplugin-overrule| for
+information about how the script overrules Bram's ftplugin.  To have the script
+activate, place 'filetype plugin on' in your |.vimrc| file.
+See |ftplugins| for more information on this topic.
+
+AUTHOR
+Dean Scarff <p00ya @AT users.sf .DOT net>
+Code attributed to Tomas Ögren
+
+ vim:tw=78:ts=8:ft=help:norl:

@@ -1,0 +1,10 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=575
+
+The GNU Coding Standards encourage the use of a C style not supported by default.  This script provides convenience support when editing C sources according to the C style guidelines encouraged in the Standards by overruling the default C ftplugin, which uses a style closer to the Linux kernel style.
+
+The GNU Coding standards are available at:
+
+	http://www.gnu.org/prep/standards.html
+
+See |C-Indenting| and |format-comments| for an idea of what the script does.
+
